@@ -9,7 +9,7 @@ headers = {
     'SEC': '4ad878e9-5aae-4889-92fb-5dcc16ce60c0'
 }
 
-url = BASE_URL  # + urllib.parse.urlencode(parameters)
+url = BASE_URL
 json_data = requests.get(url, headers=headers, verify=False).json()
 
 for ip in json_data['data']:
