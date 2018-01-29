@@ -35,3 +35,5 @@ SELECT username, count(*),
 FROM events
 GROUP BY username
 ```
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=PCDJ1yCQGkY" target="_blank"><img src="http://img.youtube.com/vi/PCDJ1yCQGkY/0.jpg"
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
