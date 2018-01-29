@@ -9,7 +9,11 @@ All examples are utilized with [IBM QRadar Community Edition](https://developer.
         * Add (individual)
         * Add (bulk)
         * List
-    * Reference Maps (incomplete)
+    * Reference Maps
+        * Create
+        * Add (individual)
+        * Add (bulk)
+        * List
     * Reference Map of Sets (incomplete)
     * Reference Map of Maps (incomplete)
     * Reference Table (incomplete)
