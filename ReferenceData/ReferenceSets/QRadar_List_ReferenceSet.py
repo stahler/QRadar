@@ -1,4 +1,4 @@
-""" QRadar Reference Sets: Create example """
+""" QRadar Reference Sets: list example """
 import requests
 
 BASE_URL = 'https://192.168.161.129/api/reference_data/sets/DEMO_IP'
