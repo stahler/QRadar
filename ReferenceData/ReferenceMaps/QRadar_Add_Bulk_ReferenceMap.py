@@ -20,6 +20,6 @@ payload = {
     'blan01':'Gern Blanston',
 }
 
-url = BASE_URL  # + urllib.parse.urlencode(parameters)
+url = BASE_URL
 json_data = requests.post(url, data=json.dumps(payload), headers=headers, verify=False).json()
 print(json.dumps(json_data, indent=2))
