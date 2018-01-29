@@ -1,6 +1,5 @@
 """ QRadar Reference Map: Bulk load example """
 
-import urllib.parse
 import json
 import requests
 

@@ -1,6 +1,5 @@
 """ QRadar Reference Sets: Bulk load example """
 
-import urllib.parse
 import json
 import requests
 
@@ -20,6 +19,6 @@ payload = [
     "5.5.5.5"
 ]
 
-url = BASE_URL #+ urllib.parse.urlencode(parameters)
+url = BASE_URL
 json_data = requests.post(url, data=json.dumps(payload), headers=headers, verify=False).json()
 print(json.dumps(json_data, indent=2))
