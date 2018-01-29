@@ -1,4 +1,4 @@
-""" QRadar Reference Sets: Create example """
+""" QRadar Reference Sets: Add example """
 
 import urllib.parse
 import json
