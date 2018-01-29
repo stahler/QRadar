@@ -6,16 +6,32 @@ All examples are utilized with [IBM QRadar Community Edition](https://developer.
 * [Reference Data](https://www.ibm.com/support/knowledgecenter/en/SS42VS_7.3.1/com.ibm.qradar.doc/c_qradar_adm_ref_data_collection_overview.html)
     * Reference Sets
         * [Create](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_Create_ReferenceSet.py)
-        * Add (individual)
-        * Add (bulk)
-        * List
+        * [Add (individual)](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_Add_ReferenceSet.py)
+        * [Add (bulk)](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_Add_Bulk_ReferenceSet.py)
+        * [List](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_List_ReferenceSet.py)
     * Reference Maps
-        * Create
-        * Add (individual)
-        * Add (bulk)
-        * List
+        * [Create](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Create_ReferenceMap.py)
+        * [Add (individual)](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Add_ReferenceMap.py)
+        * [Add (bulk)](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Add_Bulk_ReferenceMap.py)
+        * [List](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_List_ReferenceMap.py)
     * Reference Map of Sets (incomplete)
     * Reference Map of Maps (incomplete)
     * Reference Table (incomplete)
 
-
+## AQL Usage
+### ReferenceSets
+function: [REFERENCESETCONTAINS](https://www.ibm.com/support/knowledgecenter/en/SS42VS_7.3.1/com.ibm.qradar.doc/r_aql_data_functions.html#r_aql_supported_functions__REFERENCESETCONTAINS)
+```sql
+SELECT DATEFORMAT(starttime,'YYYY-MM-dd HH:mm:ss') as 'Date',
+       sourceIP, destinationIP, username
+FROM events
+WHERE REFERENCESETCONTAINS('DEMO_UserName',username)
+```
+### ReferenceMaps
+function: [REFERENCEMAP](https://www.ibm.com/support/knowledgecenter/en/SS42VS_7.3.1/com.ibm.qradar.doc/r_aql_data_functions.html#r_aql_supported_functions__REFERENCEMAP)
+```sql
+SELECT username, count(*),
+       REFERENCEMAP('DEMO_MAP',LOWER(username)) as Full_Name_Of_User
+FROM events
+GROUP BY username
+```
