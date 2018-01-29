@@ -9,7 +9,7 @@ All examples are utilized with [IBM QRadar Community Edition](https://developer.
         * [Add (individual)](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_Add_ReferenceSet.py)
         * [Add (bulk)](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_Add_Bulk_ReferenceSet.py)
         * [List](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_List_ReferenceSet.py)
-        * Video demonstration
+        * Video demonstration<br>
         <a href="http://www.youtube.com/watch?feature=player_embedded&v=PCDJ1yCQGkY" target="_blank"><img src="http://img.youtube.com/vi/PCDJ1yCQGkY/0.jpg"
 alt="QRadar commandline example" width="240" height="180" border="5" /></a>
     * Reference Maps
