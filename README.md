@@ -5,7 +5,7 @@ Examples of [QRadar API](https://www.ibm.com/support/knowledgecenter/SSKMKU/com.
 All examples are utilized with [IBM QRadar Community Edition](https://developer.ibm.com/qradar/ce/) running on [CentOS Minimal](https://www.centos.org/download/)
 * Ariel
     * searches
-        * pass AQL
+        * [Pass AQL](https://github.com/stahler/QRadar/blob/master/Ariel/searches/QRadar_AQL.py)
 * Offenses
     * [List](https://github.com/stahler/QRadar/blob/master/Offenses/QRadar_List_Offenses.py)
 * [Reference Data](https://www.ibm.com/support/knowledgecenter/en/SS42VS_7.3.1/com.ibm.qradar.doc/c_qradar_adm_ref_data_collection_overview.html)
