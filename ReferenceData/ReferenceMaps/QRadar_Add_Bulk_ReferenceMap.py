@@ -1,14 +1,20 @@
 """ QRadar Reference Map: Bulk load example """
 
 import json
+import configparser
 import requests
 
-BASE_URL = 'https://192.168.161.129/api/reference_data/maps/bulk_load/DEMO_MAP?'
+config = configparser.ConfigParser()
+config.read("../../config.ini")
+IP = config.get("SIEM", "IP")
+KEY = config.get("SIEM", "Key")
+
+BASE_URL = "https://" + IP + "/api/reference_data/maps/bulk_load/DEMO_MAP?"
 
 # We need to pass our Authentication token to the post method.
 # Find it at: Console -> Admin -> Authorized Services '''
 headers = {
-    'SEC': '4ad878e9-5aae-4889-92fb-5dcc16ce60c0'
+    'SEC': KEY
 }
 
 # Create a dict for the elements we are passing.
@@ -18,6 +24,7 @@ payload = {
     'stah06':'Wes Stahler',
     'home01':'Homer Simpson',
     'blan01':'Gern Blanston',
+    'Gold01': 'Bucky Goldstein',
 }
 
 url = BASE_URL

@@ -1,12 +1,18 @@
 """ QRadar List Offenses example """
+import configparser
 import requests
 
-BASE_URL = 'https://192.168.161.129/api/siem/offenses'
+config = configparser.ConfigParser()
+config.read("../config.ini")
+IP = config.get("SIEM", "IP")
+KEY = config.get("SIEM", "Key")
+
+BASE_URL = "https://" + IP + "/api/siem/offenses"
 
 # We need to pass our Authentication token to the post method.
 # Find it at: Console -> Admin -> Authorized Services '''
 headers = {
-    'SEC': '4ad878e9-5aae-4889-92fb-5dcc16ce60c0'
+    'SEC': KEY
 }
 
 url = BASE_URL
