@@ -1,6 +1,7 @@
 """ QRadar Reference Sets: list example """
 import configparser
 import requests
+import urllib3
 
 config = configparser.ConfigParser()
 config.read("../../config.ini")
@@ -14,6 +15,10 @@ BASE_URL = "https://" + IP + "/api/reference_data/sets/DEMO_IP"
 headers = {
     'SEC': KEY
 }
+
+
+# ignore InsecureRequestWarning (not for production, using self signed cert in dev.)
+urllib3.disable_warnings()
 
 json_data = requests.get(BASE_URL, headers=headers, verify=False).json()
 
