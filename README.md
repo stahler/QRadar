@@ -1,6 +1,6 @@
 # QRadar API
 
-Examples of [QRadar API](https://www.ibm.com/support/knowledgecenter/SSKMKU/com.ibm.qradar.doc_cloud/c_rest_api_getting_started.html) using Python and PowerShell (PowerShell examples coming soon).
+Examples of [QRadar API](https://www.ibm.com/support/knowledgecenter/SSKMKU/com.ibm.qradar.doc_cloud/c_rest_api_getting_started.html) using Python and PowerShell.
 
 All examples are utilized with [IBM QRadar Community Edition](https://developer.ibm.com/qradar/ce/) running on [CentOS Minimal](https://www.centos.org/download/)
 * Ariel
@@ -13,7 +13,9 @@ All examples are utilized with [IBM QRadar Community Edition](https://developer.
         * [Create](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_Create_ReferenceSet.py)
         * [Add (individual)](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_Add_ReferenceSet.py)
         * [Add (bulk)](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_Add_Bulk_ReferenceSet.py)
-        * [List](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_List_ReferenceSet.py)
+        * List
+            * [QRadar_List_ReferenceSet.py](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_List_ReferenceSet.py)
+            * [QRadar_List_ReferenceSet.ps1](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_List_ReferenceSet.ps1)
     * Reference Maps
         * [Create](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Create_ReferenceMap.py)
         * [Add (individual)](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Add_ReferenceMap.py)
