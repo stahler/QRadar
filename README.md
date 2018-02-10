@@ -10,10 +10,10 @@ All examples are utilized with [IBM QRadar Community Edition](https://developer.
     * [List](https://github.com/stahler/QRadar/blob/master/Offenses/QRadar_List_Offenses.py)
 * [Reference Data](https://www.ibm.com/support/knowledgecenter/en/SS42VS_7.3.1/com.ibm.qradar.doc/c_qradar_adm_ref_data_collection_overview.html)
     * Reference Sets (The only reference collection you can manage in the web console)
-        * [Create]
+        * Create
             * [QRadar_Create_ReferenceSet.py](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_Create_ReferenceSet.py)
             * [QRadar_Create_ReferenceSet.ps1](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_Create_ReferenceSet.ps1)
-        * [Add]
+        * Add
             * [QRadar_Add_ReferenceSet.py](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_Add_ReferenceSet.py)
             * [QRadar_Add_ReferenceSet.ps1](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_Add_ReferenceSet.ps1)
             * [QRadar_Add_Bulk_ReferenceSet.py](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_Add_Bulk_ReferenceSet.py)
