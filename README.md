@@ -18,6 +18,7 @@ All examples are utilized with [IBM QRadar Community Edition](https://developer.
             * [QRadar_Add_ReferenceSet.ps1](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_Add_ReferenceSet.ps1)
             * [QRadar_Add_Bulk_ReferenceSet.py](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_Add_Bulk_ReferenceSet.py)
             * [QRadar_Add_Bulk_ReferenceSet.ps1](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_Add_Bulk_ReferenceSet.ps1)
+            * [QRadar_Add_Bulk_File_ReferenceSet.ps1](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_Add_Bulk_File_ReferenceSet.ps1)
         * List
             * [QRadar_List_ReferenceSet.py](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_List_ReferenceSet.py)
             * [QRadar_List_ReferenceSet.ps1](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_List_ReferenceSet.ps1)
