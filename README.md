@@ -23,10 +23,14 @@ All examples are utilized with [IBM QRadar Community Edition](https://developer.
             * [QRadar_List_ReferenceSet.py](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_List_ReferenceSet.py)
             * [QRadar_List_ReferenceSet.ps1](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceSets/QRadar_List_ReferenceSet.ps1)
     * Reference Maps
-        * [Create](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Create_ReferenceMap.py)
-        * [Add (individual)](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Add_ReferenceMap.py)
-        * [Add (bulk)](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Add_Bulk_ReferenceMap.py)
-        * [List](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_List_ReferenceMap.py)
+        * Create
+            * [QRadar_Create_ReferenceMap.py](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Create_ReferenceMap.py)
+            * [QRadar_Create_ReferenceMap.ps1](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Create_ReferenceMap.ps1)
+        * Add
+            * [QRadar_Add_ReferenceMap.py](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Add_ReferenceMap.py)
+            * [QRadar_Add_Bulk_ReferenceMap.py](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Add_Bulk_ReferenceMap.py)
+        * List
+            * [QRadar_List_ReferenceMap.py](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_List_ReferenceMap.py)
     * Reference Map of Sets (incomplete)
     * Reference Map of Maps (incomplete)
     * Reference Table (incomplete)
