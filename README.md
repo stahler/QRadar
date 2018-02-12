@@ -28,7 +28,9 @@ All examples are utilized with [IBM QRadar Community Edition](https://developer.
             * [QRadar_Create_ReferenceMap.ps1](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Create_ReferenceMap.ps1)
         * Add
             * [QRadar_Add_ReferenceMap.py](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Add_ReferenceMap.py)
+            * [QRadar_Add_ReferenceMap.ps1](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Add_ReferenceMap.ps1)
             * [QRadar_Add_Bulk_ReferenceMap.py](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Add_Bulk_ReferenceMap.py)
+            * [QRadar_Add_Bulk_ReferenceMap.ps1](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Add_Bulk_ReferenceMap.ps1)
         * List
             * [QRadar_List_ReferenceMap.py](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_List_ReferenceMap.py)
     * Reference Map of Sets (incomplete)
