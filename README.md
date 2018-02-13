@@ -7,7 +7,9 @@ All examples are utilized with [IBM QRadar Community Edition](https://developer.
     * searches
         * [Pass AQL](https://github.com/stahler/QRadar/blob/master/Ariel/searches/QRadar_AQL.py)
 * Offenses
-    * [List](https://github.com/stahler/QRadar/blob/master/Offenses/QRadar_List_Offenses.py)
+    * List
+        * [QRadar_List_Offenses.py](https://github.com/stahler/QRadar/blob/master/Offenses/QRadar_List_Offenses.py)
+        * [QRadar_List_Offenses.ps1](https://github.com/stahler/QRadar/blob/master/Offenses/QRadar_List_Offenses.ps1)
 * [Reference Data](https://www.ibm.com/support/knowledgecenter/en/SS42VS_7.3.1/com.ibm.qradar.doc/c_qradar_adm_ref_data_collection_overview.html)
     * Reference Sets (The only reference collection you can manage in the web console)
         * Create
@@ -33,6 +35,8 @@ All examples are utilized with [IBM QRadar Community Edition](https://developer.
             * [QRadar_Add_Bulk_ReferenceMap.ps1](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_Add_Bulk_ReferenceMap.ps1)
         * List
             * [QRadar_List_ReferenceMap.py](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_List_ReferenceMap.py)
+            * [QRadar_List_ReferenceMap.ps1](https://github.com/stahler/QRadar/blob/master/ReferenceData/ReferenceMaps/QRadar_List_ReferenceMap.ps1)
+
     * Reference Map of Sets (incomplete)
     * Reference Map of Maps (incomplete)
     * Reference Table (incomplete)
