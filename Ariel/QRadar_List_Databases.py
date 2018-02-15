@@ -17,6 +17,7 @@ headers = {
     'SEC': KEY
 }
 
+# ignore InsecureRequestWarning (Test system)
 urllib3.disable_warnings()
 
 url = BASE_URL
