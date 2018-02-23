@@ -1,7 +1,6 @@
 """ QRadar Reference Map of Sets: Add bulk example """
 import configparser
 import json
-import urllib.parse
 import requests
 
 config = configparser.ConfigParser()
