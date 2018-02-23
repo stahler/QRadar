@@ -1,3 +1,4 @@
+# QRadar Reference Sets: list example
 Import-Module -Name PsIni
 $path = 'C:\Users\stah06\Documents\QRadar\config.ini'
 $ini = Get-IniContent -FilePath $path

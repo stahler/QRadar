@@ -1,7 +1,7 @@
-""" QRadar Reference Map: Create example """
+""" QRadar Reference Map of Sets: Add example """
 import configparser
-import urllib.parse
 import json
+import urllib.parse
 import requests
 
 config = configparser.ConfigParser()
@@ -9,7 +9,7 @@ config.read("../../config.ini")
 IP = config.get("SIEM", "IP")
 KEY = config.get("SIEM", "Key")
 
-BASE_URL = "https://" + IP + "/api/reference_data/maps?"
+BASE_URL = "https://" + IP + "/api/reference_data/map_of_sets/DEMO_MAP_OF_SETS?"
 
 # We need to pass our Authentication token to the post method.
 # Find it at: Console -> Admin -> Authorized Services '''
@@ -17,12 +17,10 @@ headers = {
     'SEC': KEY
 }
 
-# Create a dict for the elements we are passing.
-# In the "create" case, we are passing the name of the reference set
-# and the type (ALNIC - Alpha-Numeric)
+# Create a dict for the key/value pair we are passing.
 parameters = {
-    'element_type': 'ALNIC',
-    'name': 'DEMO_MAP'
+    'key': 'stah06',
+    'value': '111-222-3333'
 }
 
 url = BASE_URL + urllib.parse.urlencode(parameters)

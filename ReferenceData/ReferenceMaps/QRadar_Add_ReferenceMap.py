@@ -16,9 +16,8 @@ BASE_URL = "https://" + IP + "/api/reference_data/maps/DEMO_MAP?"
 headers = {
     'SEC': KEY
 }
+
 # Create a dict for the elements we are passing.
-# In the "create" case, we are passing the name of the reference set
-# and the type (IP)
 parameters = {
     'key': 'Hill01',
     'value': 'Benny Hill'

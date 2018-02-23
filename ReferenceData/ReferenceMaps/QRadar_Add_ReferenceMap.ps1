@@ -1,3 +1,4 @@
+# QRadar Reference Map: Add example
 Import-Module -Name PsIni
 
 $path = 'C:\Users\stah06\Documents\QRadar\config.ini'
@@ -16,4 +17,3 @@ $params = @{
 
 $json_data = Invoke-RestMethod @params
 $json_data
-

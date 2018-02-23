@@ -1,3 +1,4 @@
+# QRadar Reference Map: Bulk load example
 Import-Module -Name PsIni
 
 $path = 'C:\Users\stah06\Documents\QRadar\config.ini'

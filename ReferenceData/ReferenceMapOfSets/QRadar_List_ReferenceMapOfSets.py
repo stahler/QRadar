@@ -1,4 +1,4 @@
-""" QRadar Reference Sets: Bulk load example """
+""" QRadar Reference Map of Sets: list example """
 import configparser
 import json
 import requests
@@ -8,7 +8,7 @@ config.read("../../config.ini")
 IP = config.get("SIEM", "IP")
 KEY = config.get("SIEM", "Key")
 
-BASE_URL = "https://" + IP + "/api/reference_data/sets/bulk_load/DEMO_IP?"
+BASE_URL = "https://" + IP + "/api/reference_data/map_of_sets"
 
 # We need to pass our Authentication token to the post method.
 # Find it at: Console -> Admin -> Authorized Services '''
@@ -16,12 +16,6 @@ headers = {
     'SEC': KEY
 }
 
-# Create a dict for the elements we are passing.
-payload = [
-    "10.10.10.11",
-    "5.5.5.5"
-]
+json_data = requests.get(BASE_URL, headers=headers, verify=False).json()
 
-url = BASE_URL
-json_data = requests.post(url, data=json.dumps(payload), headers=headers, verify=False).json()
 print(json.dumps(json_data, indent=2))

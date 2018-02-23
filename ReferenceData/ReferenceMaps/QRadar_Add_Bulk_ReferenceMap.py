@@ -18,8 +18,6 @@ headers = {
 }
 
 # Create a dict for the elements we are passing.
-# In the "create" case, we are passing the name of the reference set
-# and the type (IP)
 payload = {
     'stah06':'Wes Stahler',
     'home01':'Homer Simpson',

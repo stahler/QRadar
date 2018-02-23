@@ -9,7 +9,7 @@ config.read("../../config.ini")
 IP = config.get("SIEM", "IP")
 KEY = config.get("SIEM", "Key")
 
-BASE_URL = "https://" + IP + "/api/reference_data/maps?"
+BASE_URL = "https://" + IP + "/api/reference_data/map_of_sets?"
 
 # We need to pass our Authentication token to the post method.
 # Find it at: Console -> Admin -> Authorized Services '''
@@ -19,10 +19,10 @@ headers = {
 
 # Create a dict for the elements we are passing.
 # In the "create" case, we are passing the name of the reference set
-# and the type (ALNIC - Alpha-Numeric)
+# and the type (ALNIC - ALpha-Numeric)
 parameters = {
     'element_type': 'ALNIC',
-    'name': 'DEMO_MAP'
+    'name': 'DEMO_MAP_OF_SETS'
 }
 
 url = BASE_URL + urllib.parse.urlencode(parameters)

@@ -1,11 +1,11 @@
-""" QRadar List Offenses example """
+""" QRadar List Databases example """
 import configparser
 import json
 import urllib3
 import requests
 
 config = configparser.ConfigParser()
-config.read("../../config.ini")
+config.read("../config.ini")
 IP = config.get("SIEM", "IP")
 KEY = config.get("SIEM", "Key")
 
